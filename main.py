@@ -130,7 +130,7 @@ if __name__ == "__main__":
         "output_filename",
         nargs="?",
         default="arc_bookmarks_export.html",
-        help="Specify the output HTML filename (default: arc_favorites_firefox.html)"
+        help="Specify the output HTML filename (default: arc_bookmarks_export.html)"
     )
     args = parser.parse_args()
     export_arc_bookmarks(output_file=args.output_filename)
