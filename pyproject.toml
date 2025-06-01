@@ -1,0 +1,7 @@
+[project]
+name = "arc-bookmarks-export"
+version = "0.1.0"
+description = "Export Arc pinned tabs (bookmarks) to HTML"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
